@@ -5,7 +5,7 @@ import os
 from grafanalib.core import *
 
 datasource = "prometheus"
-
+# Aqui un comentario sin relevancia
 dashboard = Dashboard(
     title="Kubernetes Pod Resources",
     time=Time("now-3h", "now"),
